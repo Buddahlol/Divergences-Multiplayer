@@ -1,0 +1,56 @@
+Things to do:
+
+#1.0 "Arcadia"
+
+Arcadia: Create decision to add cores onto Lusitania and Assimilate Lusitanian
+Arcadia/Vinland: Add decision to Purchase Greenland
+
+
+Text files: Split Baltic decisions between PLC and Scandinavia
+Text files: Move Dual Monarchy decisions out of BRGdecisions
+General: Create Assimilation modifiers that can be added via decision to certain provinces
+Dual Monarchy: Make Pas de Calais and Franche Comte decisions remove Burgundian Cores, Add Assimilation Modifiers
+Burgundy: Add decisions to Retake Pas de Calais, Franche Comte, Champagne and Savoie and add Assimilation modifiers
+Burgundy: Make the Decisions and Events regarding new expansion decisions
+Burgundy: make new Formable Confederacy of the Rhine tag
+Kurland, Prussia: Make Prussian Primary Culture, give Prussia Pomeranian and Elbian Accepted
+Lanfang: Give it possible Nusantara formable
+Romania: Split Culture group into Wallachian, Moldavian and Transylvanian
+Romania: Fix decisions, tags with regard to new cultures
+Balkans: Alter Start date to release Serbia and Bulgaria as Nationalism
+Ottomans: Alter Start date to start at peace but without Balkan or Egyptian Land (Excluding Istanbul)
+Dual Monarchy: Change meme choice in anglois_language_schooling to include more assimilaion rate and keep English and French as Accepted
+Dual Monarchy: Create Decision paths regarding English Path to core Scotland, Iceland, Greenland and Beronia and accept English, Scottish, Icelandic and Beronian
+Dual Monarchy: Create Decision paths regarding French Path to core Navarre, Provence, Savoie and Burgundian Burgundy and accept French, Provencal, Basque and Burgundian but lose Welsh
+Greece/Macedonia: With Balkan rework, enable Byzantine formation and work out decisions and events regarding it (low priority)
+Elbian Confederation: Check decisions and events regarding accepting germanic Cultures
+Hungary: rework and create decisions regarding the coring and accepting of cultures in the region
+Iberia: Rework decision to include possibility for Aragon to form it
+Indochina: Create decisions and events to allow nations in the area to form formables or accept cultures in the region
+Iraq/Tehran: Look into persian formable decisions and adjust where neccesary
+Text files: Look into spliting and reworking the Irredetism text file
+Italy: Create expansion decisions and events focusing on going east or west
+Venice: Balkan rework will release Greece from Venice
+Venice: Rework decisions to allow Venice to expand into greece or wherever
+Japan: Give Japan decisions to accept Korean, Manchurian and Formosan
+Macedonia: look into decisions to make Macedonia viable for MP
+North Germany: Check up on decisions/formables to make sure they accept relevant cultures
+Text files: Split PLCScandiAccepted text file between PLC, Scandinavia and Russia
+Russia: Rework Expansion routes to make North more viable, add a eastern route
+Scandinavia: Create expansion route decisions and Events
+Sokoto/West Africa: Rework region so there is viable player nations
+Kongo/Central Africa: Rework region so there is viable player nations
+Tartarstan: Look into making Viable player nations in the area
+Ottomans: Rework expansion decisions and events
+Ottomans: Consider Turan formable
+Zhourao: Rework decisions and events regarding expansion to make nation more relevant and interesting to play
+1836 Start Date: add Prussian culture to Baltic area
+1836 Start Date: add Flemish culture to Flanders/Picardy area
+1836 Start Date: add Novgorodian culture to Novgorod area
+1836 Start Date: add Muscovite culture to Muscovy area
+1836 Start Date: add Moldavian culture to Moldavia area
+1836 Start Date: add Transylvanian culture to Transylvania area
+1836 Start Date: add Wallachian culture to Wallachia area
+1836 Start Date: Reduce pops of Anglois Culture
+General: Increase base assimilaion rate in Europe before 1850
+1836 Start Date: Create minor, insignificant tags that can be used to observe gameplay for the GM or to make sure at least 1 A.I nation is left alive
