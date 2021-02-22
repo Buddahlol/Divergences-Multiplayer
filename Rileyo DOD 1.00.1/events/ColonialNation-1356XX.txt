@@ -598,8 +598,8 @@ country_event = {
 			limit = {
 					is_core = GRN
 				}
-			}
 			secede_province = FROM
+			}
 		FROM = { country_event = 500002 }
 		ai_chance = {
 			factor = 75

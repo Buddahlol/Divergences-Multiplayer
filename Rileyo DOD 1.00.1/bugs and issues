@@ -1,4 +1,5 @@
 ##Known bugs
 #
 #Decision to core Lusitania doesn't disappear after being taken
-#Greenland Purchase decision not appearing
+#Greenland Purchase decision not handing over greenland
+#Decision Title needs localisation fixing
