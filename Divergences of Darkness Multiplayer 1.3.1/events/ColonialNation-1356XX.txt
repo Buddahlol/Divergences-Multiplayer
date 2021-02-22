@@ -3,7 +3,7 @@ country_event = {
 	title = "135601.T"
 	desc = "135601.D"
 	picture = "asian_ruler"
-	
+
 	trigger = {
 		ai = yes
 		OR = {
@@ -16,11 +16,11 @@ country_event = {
     		}
 		NOT = { has_country_flag = colonise_tech }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "135601.A"
 		set_country_flag = colonise_tech
@@ -53,14 +53,14 @@ country_event = {
 		FROM = { country_event = 135603 }
 		ai_chance = {
 			factor = 85
-			modifier = { 
+			modifier = {
 			factor = 1.5
 			NOT = { owns = 834 }
 				}
-			modifier = { 
-			factor = 2 
+			modifier = {
+			factor = 2
 			NOT = { owns = 736 }
-			}	
+			}
 		}
 	}
 
@@ -79,9 +79,9 @@ country_event = {
 	title = "135603.T"
 	desc = "135603.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "190441.A"
 		prestige = 5
@@ -102,9 +102,9 @@ country_event = {
 	title = "135604.T"
 	desc = "135604.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135604.A"
 		relation = { who = FROM value = -100 }
@@ -138,14 +138,14 @@ country_event = {
 		FROM = { country_event = 135606 }
 		ai_chance = {
 			factor = 50
-			modifier = { 
+			modifier = {
 			factor = 1.5
 			NOT = { owns = 834 }
 				}
-			modifier = { 
-			factor = 2 
+			modifier = {
+			factor = 2
 			NOT = { owns = 736 }
-			}	
+			}
 		}
 	}
 
@@ -154,8 +154,8 @@ country_event = {
 		FROM = { country_event = 135607 }
 		ai_chance = {
 			factor = 50
-			modifier = { 
-				factor = 1.3 
+			modifier = {
+				factor = 1.3
 				THIS = { part_of_sphere = yes }
 				}
 		}
@@ -168,9 +168,9 @@ country_event = {
 	title = "135606.T"
 	desc = "135606.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135606.A"
 		prestige = 10
@@ -190,9 +190,9 @@ country_event = {
 	title = "135607.T"
 	desc = "135607.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135607.A"
 		relation = { who = FROM value = -100 }
@@ -237,9 +237,9 @@ country_event = {
 		FROM = { country_event = 135611 }
 		ai_chance = {
 			factor = 85
-			modifier = { 
+			modifier = {
 			factor = 1.5
-			CLM = { exists = yes } 
+			CLM = { exists = yes }
 			NOT = { CLM = { vassal_of = THIS } }
 			}
 		}
@@ -260,9 +260,9 @@ country_event = {
 	title = "135611.T"
 	desc = "135611.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "97205.A"
 		prestige = 5
@@ -283,9 +283,9 @@ country_event = {
 	title = "135612.T"
 	desc = "135612.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135612.A"
 		relation = { who = FROM value = -100 }
@@ -337,9 +337,9 @@ country_event = {
 	title = "135621.T"
 	desc = "135621.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "97255.A"
 		prestige = 5
@@ -360,9 +360,9 @@ country_event = {
 	title = "135622.T"
 	desc = "135622.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135622.A"
 		relation = { who = FROM value = -100 }
@@ -417,9 +417,9 @@ country_event = {
 	title = "135631.T"
 	desc = "135631.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135631.A"
 		prestige = 5
@@ -445,9 +445,9 @@ country_event = {
 	title = "135632.T"
 	desc = "135632.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135632.A"
 		relation = { who = FROM value = -100 }
@@ -490,9 +490,9 @@ country_event = {
 	title = "135624.T"
 	desc = "135624.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "97355.A"
 		prestige = 5
@@ -508,9 +508,9 @@ country_event = {
 	title = "135625.T"
 	desc = "135625.D"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "135625.A"
 		relation = { who = FROM value = -100 }
@@ -523,22 +523,22 @@ country_event = {
 	title = "135626.T" #Renaming Tapt O
 	desc = "135626.D"
 	picture = "Southpole3"
-	
+
 	trigger = {
 		tag = NAN
 		owns = 2131 #Falklands
 		war = no
 		NOT = { has_country_flag = falklands }
 	}
-	
+
 	mean_time_to_happen = {
-		days = 3 
+		days = 3
 	}
-	
+
 	option = {
 		name = "135626.A"
 		treasury = -10000
-		set_country_flag = falklands 
+		set_country_flag = falklands
 		2131 = {
 			change_province_name = "Falklands"
 			state_scope = {
@@ -552,7 +552,7 @@ country_event = {
 	title = "135627.T" #Claiming South Georgia
 	desc = "135627.D"
 	picture = "Southpole3"
-	
+
 	trigger = {
 		tag = NAN
 		owns = 2131 #Falklands
@@ -560,11 +560,11 @@ country_event = {
 		nationalism_n_imperialism = 1
 		war = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "135627.A"
 		treasury = -10000
@@ -575,5 +575,78 @@ country_event = {
 		2133 = {
 			change_province_name = "South Georgia"
 		}
+	}
+}
+# Greenland Purchase 1/3
+country_event = {
+	id = 500001
+	title = "500001.T"
+	desc = "500001.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "500001.A"
+		money = 100000
+	 	GRN = {
+			all_core = {
+					remove_core = THIS
+				}
+			}
+		any_owned = {
+			limit = {
+					is_core = GRN
+				}
+			}
+			secede_province = FROM
+		FROM = { country_event = 500002 }
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "135630.B"
+		FROM = { country_event = 500003 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+# Greenland Purchase 2/3
+country_event = {
+	id = 500002
+	title = "500002.T"
+	desc = "500002.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "500002.A"
+		prestige = 5
+		money = -100000
+		GRN = {
+			all_core = {
+					add_core = THIS
+				}
+			}
+		relation = { who = FROM value = 50 }
+		any_pop = { consciousness = -1 }
+	}
+}
+# Greenland Purchase 3/3
+country_event = {
+	id = 500003
+	title = "500003.T"
+	desc = "500003.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "500003.A"
+		relation = { who = FROM value = -100 }
 	}
 }
