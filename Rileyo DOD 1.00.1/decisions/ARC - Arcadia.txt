@@ -931,28 +931,34 @@ political_decisions = {
 
 	}
 
-	purchase_greenland = {
+	greenland_purchase = {
 		potential = {
+			NOT = {has_country_flag = greenland_purchase}
 			OR = {
-				tag = ARC
 				tag = VIN
+				tag = ARC
+			}
+
+		allow = {
+			war = no
+			money = 1000000
+			nationalism_n_imperialism = 1
+			251 = {
+				owner = {
+					war = no
+					relation = { who = THIS value = 50 }
+				}
 			}
 		}
 
-	allow = {
-	nationalism_n_imperialism = 1
-	SCA = { owns = DEN_251 }
-	war = no
-	NOT = { has_country_flag = greenland }
-	relation = { who = SCA value = 0 }
-	money = 100000
+		effect = {
+			set_country_flag = greenland_purchase
+			251 = {
+				owner = { country_event = 500001 }
+			}
+		}
 
-	effect = {
-	SCA = { country_event = 500001 }
-	set_country_flag = greenland
+		ai_will_do = {
+			factor = 1
 		}
 	}
-
-	}
-
-}
