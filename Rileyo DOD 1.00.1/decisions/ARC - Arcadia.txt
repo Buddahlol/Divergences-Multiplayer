@@ -479,7 +479,7 @@ political_decisions = {
 				 }
 				}
 			badboy = 10
-			add_country_flag = arc_conquer_lusitania
+			set_country_flag = arc_conquer_lusitania
 			}
 		ai_will_do = {
 			factor = 1
