@@ -938,7 +938,7 @@ political_decisions = {
 				tag = VIN
 				tag = ARC
 			}
-
+		}
 		allow = {
 			war = no
 			money = 1000000
