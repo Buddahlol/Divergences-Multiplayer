@@ -942,6 +942,7 @@ political_decisions = {
 		}
 
 	allow = {
+	nationalism_n_imperialism = 1
 	relation = { who = SCA value = 0 }
 	money = 100000
 
