@@ -463,7 +463,7 @@ political_decisions = {
 			factor = 1
 		}
   }
-	erase_lusitania = {
+	conquer_lusitania = {
 		picture = "lusitania"
 		potential = {
 			tag = ARC
@@ -472,9 +472,6 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			}
-			}
-			social_thought = 1
-		}
 		effect = {
 			LST = { all_core = {
 				 add_core = THIS
@@ -485,7 +482,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-  integrate_lusitanians = {
+  erase_lusitania = {
     picture = "lusitania"
 		potential = {
 			tag = ARC

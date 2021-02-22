@@ -1,0 +1,25 @@
+gran_colombian_expansion = {
+    potential = {
+      tag = CLM
+      NOT = {
+          OR = {
+            has_country_flag = CLM_qingqiu
+            has_country_flag = CLM_plantagenia
+            has_country_flag = CLM_inca
+            has_country_flag = CLM_amazonie
+            has_country_flag = CLM_liberty
+        }
+      }
+    }
+    allow = {
+     nationalism_n_imperialism = 1
+    }
+    effect = {
+      prestige = 10
+      badboy = 5
+      country_event = 500011
+    }
+    ai_will_do = {
+      factor = 1
+    }
+}
