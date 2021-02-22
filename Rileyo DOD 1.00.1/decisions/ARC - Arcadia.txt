@@ -931,9 +931,9 @@ political_decisions = {
 
 	}
 
-	greenland_purchase = {
+	purchase_greenland = {
 		potential = {
-			NOT = {has_country_flag = greenland_purchase}
+			NOT = {has_country_flag = purchase_greenland}
 			OR = {
 				tag = VIN
 				tag = ARC
@@ -952,7 +952,7 @@ political_decisions = {
 		}
 
 		effect = {
-			set_country_flag = greenland_purchase
+			set_country_flag = puchase_greenland
 			251 = {
 				owner = { country_event = 500001 }
 			}
