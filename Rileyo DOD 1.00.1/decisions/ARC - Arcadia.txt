@@ -477,9 +477,9 @@ political_decisions = {
 			LST = { all_core = {
 				 add_core = THIS
 				 }
+				}
 			badboy = 10
 			add_country_flag = arc_conquer_lusitania
-				}
 			}
 		ai_will_do = {
 			factor = 1
