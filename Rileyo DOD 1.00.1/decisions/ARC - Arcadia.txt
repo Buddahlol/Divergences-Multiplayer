@@ -467,8 +467,8 @@ political_decisions = {
 		picture = "lusitania"
 		potential = {
 			tag = ARC
-			NOT = { has_country_flag = [pla_manifest_destiny] }
-			NOT = { has_country_flag = [arc_conquer_lusitania] }
+			NOT = { has_country_flag = pla_manifest_destiny }
+			NOT = { has_country_flag = arc_conquer_lusitania }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
