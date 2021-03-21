@@ -116,26 +116,23 @@ great_war_penalty_cb = {
 	months = 0
 	crisis = no
 	
-	constructing_cb = yes
+	constructing_cb = no
 	
-	can_use = {
-		great_wars_enabled = yes
-        war_with = THIS
-    }
+	great_war_obligatory = yes
 	
 	badboy_factor = 1.3
 	prestige_factor = 1
-	peace_cost_factor = 1
-	penalty_factor = 1
+	peace_cost_factor = 3
+	penalty_factor = 0
 
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
 	truce_months = 60
 	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
 
 	po_disarmament = yes
 	po_reparations = yes
