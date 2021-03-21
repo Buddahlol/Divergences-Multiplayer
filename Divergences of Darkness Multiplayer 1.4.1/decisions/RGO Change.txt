@@ -27,6 +27,7 @@ political_decisions = {
 				allow = {
 					NOT = { war = yes }
 					NOT = { has_country_flag = rgo_changed_flag }
+					any_owned_province = { has_building = province_selector }
 				}
 				effect = {
 					country_event = {
