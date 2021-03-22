@@ -784,7 +784,7 @@ guiTypes = {
 			iconType = {
 				name = "total_population_icon"
 				spriteType = "GFX_province_pop"
-				position = { x= 20 y = 49 }
+				position = { x= 20 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}		
 			
