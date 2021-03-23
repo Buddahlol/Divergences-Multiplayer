@@ -28,10 +28,12 @@ duchy_romania_title;Proclaim the Grand Duchy of Romania;;;;;;;;;;;;;;;;;;;;;;;;;
 duchy_romania_desc;With the Romanian peoples united under our singular Banner it is time to offically claim dejure rulership over Romania.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 north_sea_empire_title;The Empire of the North Sea;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 north_sea_empire_desc;Now that Ireland has been wrestled away from Anglois dominion we now finally have compelete imperium over the North Sea.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-integrate_crimean_culture_title;Integrate the Crimeans;;;;;;;;;;;;x;;;
-integrate_crimean_culture_desc;With Russian influence gaining within the region of the Black Sea and many other cultures beginning to be integrated within the region, it is time to integrate the Crimean population.;;;;;;;;;;;;x;;;
 reset_province_selector_title;Reset Province Selector;;;;;;;;;x;;;;
 reset_province_selector_desc;Destroys the province selector building in all provinces in which it has been built within.;;;;;;;;;x;;;;
 activate_province_selector;Province Selector Activation Invention;;;;;;;;;;;x
-integrate_tatar_culture_baltic_focus;Integrate the Tartars;;;;;;;;;;;;x;;;
-integrate_tatar_culture_baltic_focus;With our influence increasing across the steppes and Siberia, the Tartars have started to assimilate into our culture and become closely tied with The Russian Empire, it is time we integrate them.
+integrate_tatar_culture_baltic_focus;Integrate the Tartars.;;;;;;;;;;;;x;;;
+integrate_tatar_culture_baltic_focus_desc;With our influence increasing across the steppes and Siberia, the Tartars have started to assimilate into our culture and become closely tied with The Russian Empire, it is time we integrate them.;;;;;;;;;;;;x;;;
+integrate_siberian_culture;Integrate the Siberians.;;;;;;;;;;;;x;;;
+integrate_siberian_culture_desc;With our influence increasing across the former region of Sibir and with the Siberian peoples becomely closely affiliated with the Russian people, it is time we integrate them.;;;;;;;;;;;;x;;;
+integrate_yakut_culture;Integrate the Yakuts.;;;;;;;;;;;;x;;;
+integrate_yakut_culture_desc;With our influence increasing across the region of Eastern Ainu Mosir and with the Yakut peoples becomely closely affiliated with the Russian people, it is time we integrate them.;;;;;;;;;;;;x;;;
