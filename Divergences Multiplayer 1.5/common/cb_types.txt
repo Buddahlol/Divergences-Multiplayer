@@ -2606,83 +2606,82 @@ acquire_state = {
 }
 
 # Chinese Reunification
-#china_acquire_state = {
-#	sprite_index = 2
-#	months = 12
-#	crisis = no
-#
-#	badboy_factor = 0
-#	prestige_factor = 0
-#	peace_cost_factor = 1
-#	penalty_factor = 1
-#
-#	break_truce_prestige_factor = 5
-#	break_truce_infamy_factor = 2
-#	break_truce_militancy_factor = 2.5
-#	truce_months = 60
-#	
-#	good_relation_prestige_factor = 1
-#	good_relation_infamy_factor = 1
-#	good_relation_militancy_factor = 1
-#
-#	can_use = {
-#		year = 1840
-#		NOT = { is_our_vassal = THIS }
-#		number_of_states = 2
-#		neighbour = THIS
-#		OR = {
-#			any_owned_province = {
-#				NOT = { is_core = THIS }
-#				is_core = CHI
-#			}
-#			is_culture_group = chinese
-#		}
-#		THIS = {
-#			OR = {
-#				is_culture_group = chinese
-#				is_culture_group = oversea_chinese
-#			}
-#			NOT = {
-#				has_country_modifier = neutrality
-#				war_policy = pacifism
-#			}
-#		}
-#		OR = {
-#			war_with = THIS
-#			THIS = {
-#				NOT = {
-#					has_country_modifier = no_more_war
-#				}
-#			}
-#		}
-#	}
-#	
-#	allowed_states = {
-#		OR = {
-#			any_owned_province = {
-#				NOT = { is_core = THIS }
-#				is_core = CHI
-#			}
-#			any_owned_province = {
-#				owner = { is_culture_group = chinese }
-#				NOT = { is_core = CHI }
-#			}
-#		}
-#	}
-#
-#	po_demand_state = yes
-#	
-#	war_name = WAR_CHINA_REUNIFICATION
-#	
-#	on_add = {
-#		move_issue_percentage = { 
-#			from = jingoism 
-#			to = pro_military
-#			value = 0.10
-#		}
-#	}
-#}
-#
+china_acquire_state = {
+	sprite_index = 2
+	months = 12
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2.5
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		year = 1840
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2
+		neighbour = THIS
+		OR = {
+			any_owned_province = {
+				NOT = { is_core = THIS }
+				is_core = CHI
+			}
+			is_culture_group = chinese
+		}
+		THIS = {
+			OR = {
+				is_culture_group = chinese
+			}
+			NOT = {
+				has_country_modifier = neutrality
+				war_policy = pacifism
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = {
+				NOT = {
+					has_country_modifier = no_more_war
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		OR = {
+			any_owned_province = {
+				NOT = { is_core = THIS }
+				is_core = CHI
+			}
+			any_owned_province = {
+			owner = { is_culture_group = chinese }
+				NOT = { is_core = CHI }
+			}
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_CHINA_REUNIFICATION
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.10
+		}
+	}
+}
+
 china_conquest = {
 	sprite_index = 2
 	months = 12

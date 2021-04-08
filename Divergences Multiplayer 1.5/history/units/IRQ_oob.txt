@@ -34,12 +34,7 @@ army = {
 		type = infantry
 		home = 923
 	}
-
-	regiment = {
-		name= "4. Iraqi"
-		type = infantry
-		home = 923
-	}
+	
 }
 
 army = {
@@ -60,13 +55,13 @@ army = {
 	regiment = {
 		name= "3. Iraqi"
 		type = infantry
-		home = 935
+		home = 926
 	}
 
 	regiment = {
 		name= "1. Irani"
 		type = infantry
-		home = 1132
+		home = 1131
 	}
 }
 
@@ -82,7 +77,7 @@ army = {
 	regiment = {
 		name= "2. Irani"
 		type = hussar
-		home = 1117
+		home = 1122
 	}	
 }
 
