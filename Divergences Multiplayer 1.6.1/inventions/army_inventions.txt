@@ -1674,7 +1674,6 @@ operational_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
 			support = 1
 			default_organisation = 5
 		}
