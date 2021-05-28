@@ -24,7 +24,7 @@ political_decisions = {
 					}
 				}
 				}
-				NOV = {
+				PSV = {
 				all_core = {
 					owner = {
 						OR = {
@@ -34,7 +34,7 @@ political_decisions = {
 						}
 					}
 				}
-			}
+				}
 			}
 		
 			effect = {
